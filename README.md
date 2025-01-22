@@ -1,16 +1,16 @@
-# iuliia (Dart)
+# `Iuliia`
 
-Transliterate Cyrillic → Latin in every possible way.
+> Transliterate Cyrillic → Latin in every possible way
 
 This is a Dart port of the incredible Python library [iuliia](https://github.com/nalgeon/iuliia-py) by [@nalgeon](https://github.com/nalgeon), based on the [Java port](https://github.com/massita99/iuliia-java).
 
 Transliteration means representing Cyrillic characters (often in names, geographic locations, etc.) with Latin letters. It is used for passports, visas, driving licenses, mail delivery, and more.
 
-## Why use iuliia
+## Why use `Iuliia`
 
-- **20 transliteration schemas** (rule sets), including major international and Russian standards.
-- **Accurate**: implements all the special rules for letter combinations and word endings.
-- **Simple API** with zero dependencies.
+- [20 transliteration schemas](https://github.com/nalgeon/iuliia) (rule sets), including all main international and Russian standards.
+- Correctly implements not only the base mapping, but all the special rules for letter combinations and word endings (AFAIK, Iuliia is the only library which does so).
+- Simple API and zero third-party dependencies.s.
 
 ## Installation
 
