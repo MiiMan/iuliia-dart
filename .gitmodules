@@ -1,0 +1,6 @@
+[submodule "iuliia"]
+	path = iuliia
+	url = https://github.com/nalgeon/iuliia.git
+[submodule "schemas"]
+	path = schemas
+	url = https://github.com/nalgeon/iuliia.git

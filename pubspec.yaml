@@ -1,0 +1,105 @@
+name: iuliia
+description: Transliterate Cyrillic → Latin in every possible way
+version: 1.0.0
+repository: https://github.com/MiiMan/iuliia-dart
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+
+dev_dependencies:
+  lint: ^2.3.0
+  resource_importer: ^0.2.0
+  test: ^1.24.0
+
+resource_importer:
+  destination: 'lib/src/json.resources.dart'
+  resources:
+    alaLc:
+      path: 'schemas/ala_lc.json'
+      type: String
+    alaLcAlt:
+      path: 'schemas/ala_lc_alt.json'
+      type: String
+    bgnPcgn:
+      path: 'schemas/bgn_pcgn.json'
+      type: String
+    bgnPcgnAlt:
+      path: 'schemas/bgn_pcgn_alt.json'
+      type: String
+    bs2979:
+      path: 'schemas/bs_2979.json'
+      type: String
+    bs2979Alt:
+      path: 'schemas/bs_2979_alt.json'
+      type: String
+    gost16876:
+      path: 'schemas/gost_16876.json'
+      type: String
+    gost16876Alt:
+      path: 'schemas/gost_16876_alt.json'
+      type: String
+    gost52290:
+      path: 'schemas/gost_52290.json'
+      type: String
+    gost52535:
+      path: 'schemas/gost_52535.json'
+      type: String
+    gost7034:
+      path: 'schemas/gost_7034.json'
+      type: String
+    gost779:
+      path: 'schemas/gost_779.json'
+      type: String
+    gost779Alt:
+      path: 'schemas/gost_779_alt.json'
+      type: String
+    icaoDoc9303:
+      path: 'schemas/icao_doc_9303.json'
+      type: String
+    iso91954:
+      path: 'schemas/iso_9_1954.json'
+      type: String
+    iso91968:
+      path: 'schemas/iso_9_1968.json'
+      type: String
+    iso91968Alt:
+      path: 'schemas/iso_9_1968_alt.json'
+      type: String
+    mosmetro:
+      path: 'schemas/mosmetro.json'
+      type: String
+    mvd310:
+      path: 'schemas/mvd_310.json'
+      type: String
+    mvd310Fr:
+      path: 'schemas/mvd_310_fr.json'
+      type: String
+    mvd782:
+      path: 'schemas/mvd_782.json'
+      type: String
+    schemaJsd:
+      path: 'schemas/schema.jsd'
+      type: String
+    scientific:
+      path: 'schemas/scientific.json'
+      type: String
+    telegram:
+      path: 'schemas/telegram.json'
+      type: String
+    ungegn1987:
+      path: 'schemas/ungegn_1987.json'
+      type: String
+    uz:
+      path: 'schemas/uz.json'
+      type: String
+    yandexMaps:
+      path: 'schemas/yandex_maps.json'
+      type: String
+    yandexMoney:
+      path: 'schemas/yandex_money.json'
+      type: String
+    wikipedia:
+      path: 'schemas/wikipedia.json'
+      type: String
